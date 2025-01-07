@@ -1,7 +1,6 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import AuthorizationProvider from './components/AuthorizationProvide';
-import Navbar from './components/components/navbar';
-import './style.css';
+import AuthorizationProvider from '@/app/components/AuthorizationProvide';
+import '../../style.css';
 
 
 export const metadata = {
