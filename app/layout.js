@@ -1,6 +1,5 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import AuthorizationProvider from './components/AuthorizationProvide';
-import Navbar from './components/components/navbar';
 import './style.css';
 
 

@@ -22,7 +22,6 @@ const handler =  NextAuth({
         const user = await res.json();
 
         if (res.ok && user) {
-          console.log(user);
           return user;
           
         }
@@ -59,6 +58,7 @@ const handler =  NextAuth({
       return session;
     },
   },
+  secret: process.env.NEXT_PUBLIC_SECRET,
 });
 
 export {handler as GET, handler as POST}
